@@ -1,4 +1,4 @@
-package main
+package problems
 
 func fibonacciMemo(n int, memo map[int]int) int {
 	if n <= 0 {
@@ -15,7 +15,7 @@ func fibonacciMemo(n int, memo map[int]int) int {
 	return memo[n]
 }
 
-func fib(n int) int {
+func Fib(n int) int {
 	memo := make(map[int]int)
 	return fibonacciMemo(n, memo)
 }

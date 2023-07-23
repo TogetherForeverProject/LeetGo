@@ -1,6 +1,6 @@
-package main
+package problems
 
-func tribonacci(n int) int {
+func Tribonacci(n int) int {
 	if n == 0 {
 		return 0
 	} else if n == 1 || n == 2 {

@@ -32,6 +32,7 @@ func fib(n int) int {
 	return fibonacciMemo(n, memo)
 }
 
+// Input: n = 2
 func Problem509() {
     n := 10
 	result := fib(n)

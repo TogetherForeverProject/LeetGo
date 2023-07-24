@@ -25,6 +25,7 @@ func minimumTotal(triangle [][]int) int {
 	return triangle[0][0]
 }
 
+// Input: triangle = [[2],[3,4],[6,5,7],[4,1,8,3]]
 func Problem120() {
     triangle := [][]int{
         {2},

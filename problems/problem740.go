@@ -25,6 +25,7 @@ func deleteAndEarn(vc []int) int {
     return dp[10001]
 }
 
+// Input: nums = [3,4,2]
 func Problem740() {
 	nums := []int{3, 4, 2}
 	maxPoints := deleteAndEarn(nums)

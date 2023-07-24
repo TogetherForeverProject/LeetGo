@@ -56,6 +56,7 @@ func uniquePathsWithObstacles(obstacleGrid [][]int) int {
     return obstacleGrid[h-1][w-1]
 }
 
+// Input: obstacleGrid = [[0,0,0],[0,1,0],[0,0,0]]
 func Problem63() {
     grid := [][]int{
         {0, 0, 0},

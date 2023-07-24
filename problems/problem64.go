@@ -40,6 +40,7 @@ func minPathSum(grid [][]int) int {
 	return dp[m-1][n-1]
 }
 
+// Input: grid = [[1,3,1],[1,5,1],[4,2,1]]
 func Problem64() {
     grid := [][]int{
         {1, 3, 1},

@@ -25,6 +25,7 @@ func climbStairs(n int) int {
     return dp[n]
 }
 
+// Input: n = 2
 func Problem70() {
     n := 5
     ways := climbStairs(n)

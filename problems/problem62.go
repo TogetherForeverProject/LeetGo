@@ -40,6 +40,7 @@ func uniquePaths(m int, n int) int {
 	return dp[m-1][n-1]
 }
 
+// Input: m = 3, n = 7
 func Problem62() {
 	m := 3
 	n := 7

@@ -35,8 +35,10 @@ if [ -f "$file" ]; then
     problem_title=$(get_first_comment "$file")
     echo "${bold}Problem $problem_number ($problem_title)"
     echo "──────────────────────────────"
+    input_go=$(grep -r -h -oE '// Input:.*' "$file" | sed -E 's/\/\/ Input:\s*//')
     output_go=$(go run main.go -problem="$problem_number")
 
+    printf "[${cyan}Input${reset}] %s\n" "$input_go"
     # Print both outputs on the same line using printf
     printf "[${cyan}Output${reset}] %s\n" "$output_go"
 else

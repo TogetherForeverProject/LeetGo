@@ -33,6 +33,7 @@ func rob(nums []int) int {
 	return prev2
 }
 
+// Input: nums = [1,2,3,1]
 func Problem198() {
 	nums := []int{2, 7, 9, 3, 1}
 	maxAmount := rob(nums)

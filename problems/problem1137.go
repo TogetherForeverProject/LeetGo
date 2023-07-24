@@ -26,6 +26,7 @@ func tribonacci(n int) int {
 	return t2
 }
 
+// Input: n = 4
 func Problem1137() {
 	n := 25
 	result := tribonacci(n)

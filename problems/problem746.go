@@ -23,6 +23,7 @@ func minCostClimbingStairs(cost []int) int {
 	return min(first, second)
 }
 
+// Input: cost = [10,15,20]
 func Problem746() {
 	cost := []int{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}
 	minCost := minCostClimbingStairs(cost) // Use the function directly without package name

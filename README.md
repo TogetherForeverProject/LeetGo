@@ -10,3 +10,8 @@
 |198|[House Robber](https://leetcode.com/problems/house-robber/?envType=study-plan-v2&envId=dynamic-programming)|[problem198.go](./problems/problem198.go)|<span style="color:rgb(255 192 30);">Medium</span>|
 |740|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/?envType=study-plan-v2&envId=dynamic-programming)|[problem740.go](./problems/problem740.go)|<span style="color:rgb(255 192 30);">Medium</span>|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/?envType=study-plan-v2&envId=dynamic-programming)|[problem62.go](./problems/problem62.go)|<span style="color:rgb(255 192 30);">Medium</span>|
+|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/?envType=study-plan-v2&envId=dynamic-programming)|[problem64.go](./problems/problem64.go)|<span style="color:rgb(255 192 30);">Medium</span>|
+|63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/?envType=study-plan-v2&envId=dynamic-programming)|[problem63.go](./problems/problem63.go)|<span style="color:rgb(255 192 30);">Medium</span>|
+|120|[Triangle](https://leetcode.com/problems/triangle/?envType=study-plan-v2&envId=dynamic-programming)|[problem120.go](./problems/problem120.go)|<span style="color:rgb(255 192 30);">Medium</span>|
+|931|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/?envType=study-plan-v2&envId=dynamic-programming)|[problem931.go](./problems/problem931.go)|<span style="color:rgb(255 192 30);">Medium</span>|
+|221|[Maximal Square](https://leetcode.com/problems/maximal-square/?envType=study-plan-v2&envId=dynamic-programming)|[problem221.go](./problems/problem221.go)|<span style="color:rgb(255 192 30);">Medium</span>|

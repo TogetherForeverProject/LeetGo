@@ -10,10 +10,15 @@ print_error() {
     echo "[${red}Error${reset}] $text"
 }
 
+get_first_comment() {
+    local filename="$1"
+    grep -m 1 -E '^\s*//' "$filename" | sed 's/^\s*\/\/\s*//'
+}
+
 # Check if the number argument is provided
 if [ $# -ne 1 ]; then
     echo "Usage: $0 <problem_number>"
-    exit 1
+    exst 1
 fi
 
 # Get the problem number from the first argument
@@ -22,10 +27,13 @@ bold=$(tput bold)
 
 cyan=$(tput setaf 6)
 reset=$(tput sgr0)
+
+file="problems/problem$problem_number.go"
 # Check if the problem file exists in the problems folder
-if [ -f "problems/problem$problem_number.go" ]; then
+if [ -f "$file" ]; then
     # If the file exists, run the main.go with the specified problem number
-    echo "${bold}Problem $problem_number"
+    problem_title=$(get_first_comment "$file")
+    echo "${bold}Problem $problem_number ($problem_title)"
     echo "──────────────────────────────"
     output_go=$(go run main.go -problem="$problem_number")
 

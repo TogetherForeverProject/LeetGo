@@ -5,6 +5,8 @@ import (
     "fmt"
 )
 
+// ---------------------------
+// Math Functions
 func min(a, b int) int {
 	if a < b {
 		return a
@@ -18,6 +20,21 @@ func max(a, b int) int {
     }
     return b
 }
+
+func mins(a, b, c int) int {
+	if a < b {
+		if a < c {
+			return a
+		}
+		return c
+	}
+	if b < c {
+		return b
+	}
+	return c
+}
+
+// ---------------------------
 
 // ProblemFunction represents the signature of the problem functions
 type ProblemFunction func()
@@ -41,4 +58,3 @@ func RunProblem(problemNumber int) {
 		flag.PrintDefaults()
 	}
 }
-

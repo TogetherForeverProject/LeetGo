@@ -1,6 +1,10 @@
 package problems
 
-func ClimbStairs(n int) int {
+import (
+    "fmt"
+)
+
+func climbStairs(n int) int {
     if n <= 2 {
         return n
     }
@@ -14,4 +18,14 @@ func ClimbStairs(n int) int {
     }
 
     return dp[n]
+}
+
+func Problem70() {
+    n := 5
+    ways := climbStairs(n)
+    fmt.Printf("Number of distinct ways to climb %d steps: %d\n", n, ways)
+}
+
+func init() {
+    RegisterProblem(70, Problem70)
 }

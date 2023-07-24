@@ -1,6 +1,10 @@
 package problems
 
-func MinCostClimbingStairs(cost []int) int {
+import (
+    "fmt"
+)
+
+func minCostClimbingStairs(cost []int) int {
 	first, second := cost[0], cost[1]
 
 	for i := 2; i < len(cost); i++ {
@@ -10,9 +14,12 @@ func MinCostClimbingStairs(cost []int) int {
 	return min(first, second)
 }
 
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
+func Problem746() {
+	cost := []int{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}
+	minCost := minCostClimbingStairs(cost) // Use the function directly without package name
+	fmt.Println("Minimum cost to reach the top of the floor:", minCost)
+}
+
+func init() {
+    RegisterProblem(746, Problem746)
 }

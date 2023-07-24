@@ -1,13 +1,10 @@
 package problems
 
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
+import (
+    "fmt"
+)
 
-func Rob(nums []int) int {
+func rob(nums []int) int {
 	n := len(nums)
 	if n == 0 {
 		return 0
@@ -24,4 +21,14 @@ func Rob(nums []int) int {
 	}
 
 	return prev2
+}
+
+func Problem198() {
+	nums := []int{2, 7, 9, 3, 1}
+	maxAmount := rob(nums)
+	fmt.Println("Maximum amount of money that can be robbed:", maxAmount)
+}
+
+func init() {
+    RegisterProblem(198, Problem198)
 }

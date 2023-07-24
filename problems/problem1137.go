@@ -1,6 +1,10 @@
 package problems
 
-func Tribonacci(n int) int {
+import (
+    "fmt"
+)
+
+func tribonacci(n int) int {
 	if n == 0 {
 		return 0
 	} else if n == 1 || n == 2 {
@@ -14,4 +18,14 @@ func Tribonacci(n int) int {
 	}
 
 	return t2
+}
+
+func Problem1137() {
+	n := 25
+	result := tribonacci(n)
+	fmt.Printf("Tribonacci number at index %d is: %d\n", n, result)
+}
+
+func init() {
+    RegisterProblem(1137, Problem1137)
 }

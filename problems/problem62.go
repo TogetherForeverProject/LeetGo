@@ -11,7 +11,7 @@
 package problems
 
 import (
-    "fmt"
+	"fmt"
 )
 
 func uniquePaths(m int, n int) int {
@@ -47,5 +47,5 @@ func Problem62() {
 }
 
 func init() {
-    RegisterProblem(62, Problem62)
+	RegisterProblem(62, Problem62)
 }

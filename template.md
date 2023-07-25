@@ -15,3 +15,6 @@
 |120|[Triangle](https://leetcode.com/problems/triangle/?envType=study-plan-v2&envId=dynamic-programming)|[[120]]|{{medium}}|
 |931|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/?envType=study-plan-v2&envId=dynamic-programming)|[[931]]|{{medium}}|
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/?envType=study-plan-v2&envId=dynamic-programming)|[[221]]|{{medium}}|
+|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/?envType=study-plan-v2&envId=dynamic-programming)|[[5]]|{{medium}}|
+|139|[Word Break](https://leetcode.com/problems/word-break/?envType=study-plan-v2&envId=dynamic-programming)|[[139]]|{{medium}}|
+|516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/?envType=study-plan-v2&envId=dynamic-programming)|[[516]]|{{medium}}|

@@ -15,3 +15,6 @@
 |120|[Triangle](https://leetcode.com/problems/triangle/?envType=study-plan-v2&envId=dynamic-programming)|[problem120.go](./problems/problem120.go)|<span style="color:rgb(255 192 30);">Medium</span>|
 |931|[Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/?envType=study-plan-v2&envId=dynamic-programming)|[problem931.go](./problems/problem931.go)|<span style="color:rgb(255 192 30);">Medium</span>|
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/?envType=study-plan-v2&envId=dynamic-programming)|[problem221.go](./problems/problem221.go)|<span style="color:rgb(255 192 30);">Medium</span>|
+|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/?envType=study-plan-v2&envId=dynamic-programming)|[problem5.go](./problems/problem5.go)|<span style="color:rgb(255 192 30);">Medium</span>|
+|139|[Word Break](https://leetcode.com/problems/word-break/?envType=study-plan-v2&envId=dynamic-programming)|[problem139.go](./problems/problem139.go)|<span style="color:rgb(255 192 30);">Medium</span>|
+|516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/?envType=study-plan-v2&envId=dynamic-programming)|[problem516.go](./problems/problem516.go)|<span style="color:rgb(255 192 30);">Medium</span>|

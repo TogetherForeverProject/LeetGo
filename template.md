@@ -21,3 +21,5 @@
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/?envType=study-plan-v2&envId=dynamic-programming)|[[72]]|{{medium}}|
 |712|[Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/?envType=study-plan-v2&envId=dynamic-programming)|[[712]]|{{medium}}|
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/?envType=study-plan-v2&envId=dynamic-programming)|[[115]]|{{hard}}|
+|300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/?envType=study-plan-v2&envId=dynamic-programming)|[[300]]|{{medium}}|
+|673|[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/?envType=study-plan-v2&envId=dynamic-programming)|[[673]]|{{medium}}|

@@ -5,6 +5,7 @@ variables=$(cat <<EOF
 title=LeetGo
 easy=<span style="color:rgb(0 184 163);">Easy</span>
 medium=<span style="color:rgb(255 192 30);">Medium</span>
+hard=<span style="color:rgb(255 55 95);">Hard</span>
 EOF
 )
 

@@ -18,3 +18,6 @@
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/?envType=study-plan-v2&envId=dynamic-programming)|[[5]]|{{medium}}|
 |139|[Word Break](https://leetcode.com/problems/word-break/?envType=study-plan-v2&envId=dynamic-programming)|[[139]]|{{medium}}|
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/?envType=study-plan-v2&envId=dynamic-programming)|[[516]]|{{medium}}|
+|72|[Edit Distance](https://leetcode.com/problems/edit-distance/?envType=study-plan-v2&envId=dynamic-programming)|[[72]]|{{medium}}|
+|712|[Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/?envType=study-plan-v2&envId=dynamic-programming)|[[712]]|{{medium}}|
+|115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/?envType=study-plan-v2&envId=dynamic-programming)|[[115]]|{{hard}}|
